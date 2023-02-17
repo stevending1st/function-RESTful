@@ -6,6 +6,5 @@
   "include": [
     "**/*.ts",
     "**/*.js",
-    ".eslintrc.js"
   ]
 }
