@@ -1,0 +1,19 @@
+{
+  "name": "function-restful",
+  "version": "0.0.1",
+  "description": "A functional TypeScript library that quickly fetches RESTful functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevending1st/function-RESTful.git"
+  },
+  "author": "stevending1st",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevending1st/function-RESTful/issues"
+  },
+  "homepage": "https://github.com/stevending1st/function-RESTful#readme"
+}
