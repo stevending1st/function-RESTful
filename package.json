@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/stevending1st/function-RESTful/issues"
   },
-  "homepage": "https://github.com/stevending1st/function-RESTful#readme"
+  "homepage": "https://github.com/stevending1st/function-RESTful#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
 }
