@@ -2,9 +2,15 @@
   "name": "function-restful",
   "version": "0.0.1",
   "description": "A functional TypeScript library that quickly fetches RESTful functions.",
-  "main": "index.js",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rm:dist": "rimraf dist",
+    "watch": "parcel watch",
+    "build": "npm run rm:dist && parcel build"
   },
   "repository": {
     "type": "git",
@@ -17,9 +23,14 @@
   },
   "homepage": "https://github.com/stevending1st/function-RESTful#readme",
   "devDependencies": {
+    "@parcel/core": "^2.8.3",
+    "@parcel/packager-ts": "^2.8.3",
+    "@parcel/transformer-typescript-types": "^2.8.3",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.52.0",
     "eslint": "^8.34.0",
+    "parcel": "^2.8.3",
+    "rimraf": "^4.1.2",
     "typescript": "^4.9.5"
   }
 }
